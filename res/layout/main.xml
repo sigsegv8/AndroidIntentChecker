@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:visibility="visible" >
+
+    <fragment
+        android:id="@+id/tab_list"
+        android:name="com.taydavid.android.intentchecker.MainListFragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/media_tab"
+        android:name="com.taydavid.android.intentchecker.MediaFragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="0.80"
+        android:tag="MediaIntents" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings_tab"
+        android:name="com.taydavid.android.intentchecker.SettingsFragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="0.80"
+        android:tag="SettingsIntents" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/launcher_tab"
+        android:name="com.taydavid.android.intentchecker.LauncherFragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="0.80"
+        android:tag="LauncherIntents" >
+    </fragment>
+
+</LinearLayout>

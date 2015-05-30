@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tc_settings">
+        <item>TCINTSETTINGS001: Open accessibilty settings</item>
+        <item>TCINTSETTINGS002: Open add account settings</item>
+        <item>TCINTSETTINGS003: Open application settings for specific package settings</item>
+        <item>TCINTSETTINGS004: Open application settings</item>
+        <item>TCINTSETTINGS005: Open bluetooth settings</item>
+        <item>TCINTSETTINGS006: Open date settings</item>
+        <item>TCINTSETTINGS007: Open device info settings</item>
+        <item>TCINTSETTINGS008: Open input method settings</item>
+        <item>TCINTSETTINGS009: Open input method subtype settings</item>
+        <item>TCINTSETTINGS010: Open internal storage settings</item>
+        <item>TCINTSETTINGS011: Open locale settings</item>
+        <item>TCINTSETTINGS012: Open manage all application settings</item>
+        <item>TCINTSETTINGS013: Open memory card settings</item>
+        <item>TCINTSETTINGS014: Open privacy settings</item>
+        <item>TCINTSETTINGS015: Open search settings</item>
+        <item>TCINTSETTINGS016: Open security settings</item>
+        <item>TCINTSETTINGS017: Open settings</item>
+        <item>TCINTSETTINGS018: Open wifi IP settings</item>
+        <item>TCINTSETTINGS019: Open wifi settings</item>
+        <item>TCINTSETTINGS020: Open wireless settings</item>
+        <item>TCINTSETTINGS021: Open sound settings</item>
+        <item>TCINTSETTINGS022: Open location source settings</item>
+    </array>
+    <array name="tc_media">
+        <item>TCINTMEDIA001: Open music file through file name</item>
+        <item>TCINTMEDIA002: Open photo through file name</item>
+        <item>TCINTMEDIA003: Open video through file name</item>
+        <item>TCINTMEDIA004: Open photo through http protocol</item>
+        <item>TCINTMEDIA005: Open video through http protocol</item>
+        <item>TCINTMEDIA006: Open music through http protocol</item>
+        <item>TCINTMEDIA007: Open photo through https protocol</item>
+        <item>TCINTMEDIA008: Open video through https protocol</item>
+        <item>TCINTMEDIA009: Open music through https protocol</item>
+        <item>TCINTMEDIA010: Open music player</item>
+    </array>
+    <array name="tc_launcher">
+        <item>TCINTLAUNCHER001: Open launcher</item>
+    </array>
+
+</resources>
