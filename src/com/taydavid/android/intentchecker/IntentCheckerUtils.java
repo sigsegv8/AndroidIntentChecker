@@ -9,6 +9,15 @@ public class IntentCheckerUtils {
         // Utils class
     }
 
+    /**
+     * Build an Android intent
+     * 
+     * @param action
+     * @param uriString
+     * @param type
+     * @param category
+     * @return
+     */
     static Intent buildIntent(final String action, final String uriString, final String type,
             final String category) {
         Intent intent = new Intent(action);

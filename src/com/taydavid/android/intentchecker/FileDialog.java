@@ -14,6 +14,11 @@ import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * Represents a simple file dialog in Android to navigate folders and select a file
+ *
+ */
 public class FileDialog {
     private static final String PARENT_DIR = "..";
     private final String TAG = getClass().getName();
